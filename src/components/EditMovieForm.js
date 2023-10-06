@@ -30,7 +30,7 @@ const EditMovieForm = (props) => {
     .catch(err => {
       console.error(err)
     })
-  }, [])
+  }, [id])
 
   const handleChange = (e) => {
     setMovie({
